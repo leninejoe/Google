@@ -1,0 +1,147 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(bg_img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.top{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.text{
+    display: flex;
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+}
+
+
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86.5vh;
+    flex-direction: column;
+}
+
+h1{
+    margin-bottom: 30px;
+    font-size: 130px;
+    color: white;
+}
+
+#textbox{
+    font-size: 17px;
+    width: 500px;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+}
+
+#textbox::placeholder{
+    font-size: 17px;
+}
+
+#Search{
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#searchbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5px 12px;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchBar{
+    margin: 5px;
+    font-size: 18px;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+#shortcut{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(200, 200, 200, 0.832);
+    border-radius: 100%;
+}
+#shortcut:hover{
+    cursor: pointer;
+}
+
+#plus{
+    font-size: 30px;
+    margin: 10px 11px;
+}
+
+#p1{
+    margin-left: 10px;
+    color: white;
+    width: 90px;
+}
+
+#p1:hover{
+    cursor: pointer;
+}
+
+.foot{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+#button{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    align-items: center;
+    border: 0px black solid;
+    border-radius: 20px;
+    margin-right: 10px;
+    padding: 5px 5px;
+    background-color: rgb(120, 120, 120);
+}
+
+#button:hover{
+    cursor: pointer;
+}
+.pen{
+    font-size: 13px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#p2{
+    margin-right: 20px;
+    color: white;
+    font-size: 18px;
+}
